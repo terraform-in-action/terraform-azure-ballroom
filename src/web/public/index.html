@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ballroom!</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="page">
+        <div class="row">
+            <div class="col">
+                <div id="article">
+                    <h1>Ballroom Dancers Anonymous</h1>
+                    <img src="dancer.jpg" alt="ballroom dancers" class="image" />
+                    <p>Ballroom is split into two distinct styles: <i>Standard</i> and <i>Latin</i></p>
+                    <div class="row">
+
+                        <div class="col">
+                            <b>Standard</b>
+                            <ul>
+                                <li>Waltz</li>
+                                <li>Tango</li>
+                                <li>Viennese Waltz</li>
+                                <li>Foxtrot</li>
+                                <li>Quickstep</li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <b>Latin</b>
+                            <ul>
+                                <li>Cha Cha</li>
+                                <li>Samba</li>
+                                <li>Rumba</li>
+                                <li>Paso Doble</li>
+                                <li>Jive</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p>Love dancing? Have questions? Leave a comment!</p>
+                    <table>
+                        <tr>
+                            <td>Name: </td>
+                            <td><textarea id="name" rows="1" class="textarea"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>Message: </td>
+                            <td><textarea id="message" rows="5" class="textarea"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><button onclick="tweet()" class="button">Post</button></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+            <div class="col">
+                <div id="sidebar">
+                    <div class="iframe-wrapper">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/FrKcRyHNymg" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </div>
+                    <div id="tweets">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

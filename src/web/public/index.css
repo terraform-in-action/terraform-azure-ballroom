@@ -1,0 +1,66 @@
+body {
+    background-color: darkred;
+}
+
+.page {
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%
+}
+  
+.col {
+   display: flex;
+   flex-direction: column;
+   flex-basis: 100%;
+   flex: 1;
+}
+
+#article {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 700px;
+   
+}
+
+#sidebar {
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.image {
+    object-fit: contain;
+}
+
+#tweets {
+    margin-top:40px;
+}
+
+.tweet {
+    background-color: white;
+    padding: 20px;
+    border-bottom: thin dotted #333;
+}
+
+.textarea {
+    width:100%;
+    border: thin solid black;
+}
+
+.button {
+    background-color: #093958;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

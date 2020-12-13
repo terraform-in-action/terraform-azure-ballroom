@@ -1,0 +1,12 @@
+{
+  "name": "ballroom-website",
+  "version": "v1.0.0",
+  "description": "A serverless website",
+  "scripts": {
+    "test": "echo \"No tests yet...\""
+  },
+  "author": "Scott Winkler",
+  "dependencies": {
+    "azure-storage": "^2.10.3"
+  }
+}
